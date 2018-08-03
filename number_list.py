@@ -23,7 +23,8 @@ def find_descending(numbers):
     pass
 
 def second_smallest(numbers):
-    #TODO: find the second smallest
+    numbers.sort()
+    second_smallest = numbers[1]
     pass
 
 
